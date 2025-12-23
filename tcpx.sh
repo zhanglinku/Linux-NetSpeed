@@ -535,8 +535,7 @@ installbbr() {
 				echo -e "如果下载地址出错，可能当前正在更新，超过半天还是出错请反馈，大陆自行解决污染问题"
 
 				headurl=https://x.orz.li/kernel-headers-6.1.35-1.x86_64.rpm
-				imgurl=https://ghfast.top/
-https://github.com/ylx2016/kernel/releases/download/Centos_Kernel_6.1.35_latest_bbr_2023.06.22-0855/kernel-6.1.35-1.x86_64.rpm
+				imgurl=https://x.orz.li/kernel-6.1.35-1.x86_64.rpm
 
 				check_empty $imgurl
 				headurl=$(check_cn $headurl)
